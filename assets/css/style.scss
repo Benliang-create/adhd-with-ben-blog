@@ -1,0 +1,66 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --brand-warm: #E8A87C;
+  --brand-accent: #D85F4A;
+  --brand-bg: #FFF8F0;
+  --brand-text: #3D2C2E;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+.site-header {
+  border-top: 5px solid var(--brand-accent);
+  background-color: #fff;
+}
+
+.site-title, .site-title:visited {
+  color: var(--brand-accent) !important;
+  font-weight: 700;
+}
+
+a {
+  color: var(--brand-accent);
+}
+
+a:hover {
+  color: darken(#D85F4A, 15%);
+}
+
+.post-title, .post-title a {
+  color: var(--brand-text);
+}
+
+.post-content h2 {
+  color: var(--brand-accent);
+  border-bottom: 2px solid var(--brand-warm);
+  padding-bottom: 0.3em;
+}
+
+.post-content h3 {
+  color: var(--brand-text);
+}
+
+blockquote {
+  border-left-color: var(--brand-warm);
+  color: #6B4C4E;
+}
+
+.footer-col-wrapper {
+  color: #8B6F71;
+}
+
+.site-footer {
+  border-top-color: var(--brand-warm);
+}
+
+/* CTA links styling */
+.post-content a[href*="gumroad"] {
+  font-weight: 600;
+}

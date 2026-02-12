@@ -1,0 +1,18 @@
+title: ADHD With Ben
+description: Practical ADHD tools, printable planners, and real talk from someone who actually has ADHD.
+url: "https://benliang-create.github.io"
+baseurl: "/adhd-with-ben-blog"
+theme: minima
+permalink: /:slug/
+plugins:
+  - jekyll-seo-tag
+
+author:
+  name: Ben
+  email: ""
+
+header_pages:
+  - about.md
+
+minima:
+  skin: classic
